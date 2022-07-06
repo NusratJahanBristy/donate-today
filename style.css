@@ -21,7 +21,6 @@
     font-weight: 700;
     text-align: center;
     color: white;
-    Line height: 78.66px;
     padding: 160px 0px 0px;
 }
 
@@ -34,8 +33,7 @@
     margin: 30px 280px;
 }
 
-button {
-
+.button-btn {
     font-size: 18px;
     background: #FF5959;
     border-radius: 5px;
@@ -48,6 +46,65 @@ button {
     border: none;
 }
 
-button:hover {
+.button-btn:hover {
     cursor: pointer;
+}
+
+.donate-content h2 {
+    font-size: 45px;
+    font-weight: 700;
+    color: #121212;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.donate-content p {
+    font-size: 18px;
+    color: #707070;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 20px;
+    padding: 0px 250px;
+
+}
+
+.donate-number ul {
+    font-size: 30px;
+    color: #707070;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: center;
+    list-style: none;
+    margin: 0px 300px;
+    padding: 80px 15px;
+}
+
+.active {
+    color: #FF5959;
+    background-color: #FFEEEE;
+    border: 2px solid #FF5959;
+    margin-top: -32px;
+    border-radius: 5px;
+    padding: 30px 15px;
+}
+
+.input-data {
+    text-align: center;
+    color: #B3B3B3;
+    margin-bottom: 10px;
+}
+
+.input-data input {
+    width: 700px;
+    font-size: 18px;
+    text-align: center;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    border-bottom: 1px solid #DADADA;
 }
