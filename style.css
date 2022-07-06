@@ -50,7 +50,7 @@
     cursor: pointer;
 }
 
-.donate-content h2 {
+.flexible-container h2 {
     font-size: 45px;
     font-weight: 700;
     color: #121212;
@@ -59,7 +59,7 @@
     margin-top: 100px;
 }
 
-.donate-content p {
+.flexible-container p {
     font-size: 18px;
     color: #707070;
     font-family: 'Poppins', sans-serif;
@@ -107,4 +107,51 @@
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     border-bottom: 1px solid #DADADA;
+}
+
+.plan {
+    display: flex;
+}
+
+#container1 {
+    width: 50%;
+    background-color: rgba(79, 157, 166, 0.1);
+    border-radius: 5px;
+    padding: 50px 40px;
+    margin: 20px 10px 50px 100px;
+}
+
+#container2 {
+    width: 50%;
+    background-color: rgba(255, 89, 89, 0.1);
+    border-radius: 5px;
+    padding: 50px 40px;
+    margin: 20px 10px 50px 10px;
+}
+
+#container3 {
+    width: 50%;
+    background-color: rgba(112, 26, 26, 0.1);
+    border-radius: 5px;
+    padding: 60px 30px;
+    margin: 20px 100px 50px 10px;
+}
+
+.plan-img img {
+    width: 53px;
+    height: 53px;
+}
+
+.plan-content h3 {
+    font-size: 24px;
+    color: #121212;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+.plan-content p {
+    font-size: 16px;
+    color: #707070;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
 }
