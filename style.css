@@ -155,3 +155,22 @@
     font-weight: 400;
     font-family: 'Poppins', sans-serif;
 }
+
+.gallery-image {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.gallery-image img {
+    width: 30%;
+    align-items: center;
+    border-radius: 10px;
+    margin: 20px 0px 20px 30px;
+    margin-right: 5px;
+}
+
+.gallery-image img:hover {
+    box-shadow: 20px 15px 40px grey;
+}
